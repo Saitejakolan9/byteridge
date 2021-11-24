@@ -9,7 +9,6 @@ function Datatable({users,handleDeleteUser}) {
     const [sortable,setSortable] = useState("")
     const [order,setOrder] = useState("asc")
     const [timeFormat,setTimeFormat] = useState("24hr")
-    const [headers,setHeaders] = useState(['Sno','MAC Id', 'Role', 'Date' , 'Created Date', 'Created Time', 'Action'])
 
 
 
